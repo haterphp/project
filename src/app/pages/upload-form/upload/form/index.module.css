@@ -1,0 +1,11 @@
+.form_container {
+    @apply flex flex-col gap-y-5 w-[50%] md:max-xl:w-[100%];
+}
+
+.form_container__inputs {
+    @apply flex gap-5 w-full;
+}
+
+.form_container__buttons {
+    @apply flex gap-3;
+}

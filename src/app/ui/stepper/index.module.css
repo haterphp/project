@@ -1,0 +1,26 @@
+.stepper {
+  @apply flex flex-col gap-[100px];
+}
+
+.stepper__step {
+  @apply w-[50px] h-[50px] 
+    rounded-full bg-slate-200 
+    text-slate-950 flex justify-center 
+    items-center cursor-pointer
+    relative transition-colors;
+}
+
+.stepper__step:not(:disabled):hover::before,
+.stepper__step:not(:disabled):hover {
+    @apply !bg-green-700 text-white;
+}
+
+.stepper__step:not(:first-child)::before {
+  content: "";
+  margin-top: -150px;
+  @apply w-[2px] absolute h-[80px] bg-slate-200;
+}
+
+.stepper__step_active {
+  @apply bg-green-500 text-white;
+}

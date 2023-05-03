@@ -1,0 +1,20 @@
+.dropzone_container {
+  @apply w-full flex flex-col gap-2;
+}
+
+.dropzone {
+  @apply w-full p-5 border-solid border-2 border-dashed border-slate-300 bg-slate-50 rounded-lg transition-colors text-slate-400 text-center text-lg cursor-pointer;
+}
+
+.dropzone:not(.dropzone_is_reject):hover,
+.dropzone_is_focused {
+  @apply bg-slate-100;
+}
+
+.dropzone_is_reject {
+  @apply bg-red-100 !border-red-500 !text-red-500;
+}
+
+.dropzone_is_accept {
+  @apply bg-green-100 !border-green-500 !text-green-500;
+}
