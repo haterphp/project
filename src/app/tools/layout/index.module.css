@@ -1,5 +1,6 @@
 .layout {
-    @apply min-h-screen flex gap-x-[50px] px-[70px] py-[100px] items-start;
+    @apply flex gap-x-[50px] px-[70px] py-[50px] items-start overflow-auto w-full transition-transform;
+    height: calc(100vh - 40px);
 }
 
 .layout__stepper {

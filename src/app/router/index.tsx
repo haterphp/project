@@ -18,17 +18,5 @@ const AppRouter = () => {
         />
     )
 }
-// const ROUTE_LIST: RouteObject[] = [
-//     { 
-//         path: PREFIX, 
-//         element: <ApplicationLayout />,
-//         children: [
-//             { path: RouterPath.UF_GREETING, element: <UFGreetingPage />  },
-//             { path: RouterPath.UF_UPLOAD, element: <UFUploadPage />  },
-//             { path: RouterPath.UF_RESULTS, element: <UFResultPage />  },
-//         ]
-//     },
-//     { path: '*', element: <Navigate to={RouterPath.UF_GREETING} /> }
-// ]
 
 export { AppRouter }

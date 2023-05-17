@@ -1,0 +1,16 @@
+.toolbar__button {
+    @apply bg-transparent px-4 hover:bg-white/10;
+}
+
+.toolbar__button_red {
+    @apply hover:bg-red-500;
+}
+
+.toolbar__drag-container {
+    @apply w-full;
+    -webkit-app-region: drag;
+}
+
+.toolbar__button > svg {
+    width: 15px;
+}
