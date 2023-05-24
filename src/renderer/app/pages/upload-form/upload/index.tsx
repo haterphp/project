@@ -1,4 +1,4 @@
-import { LayoutHeader } from "@app/tools"
+import { LayoutHeader } from "@app/tools/layout"
 import { FilesForm, IFileFormValues } from "./form"
 import { SessionRepository } from "@data/sessions"
 import { CreateSessionUseCase, ICreateSessionError } from "@domain/session/use-cases/create-use-case"

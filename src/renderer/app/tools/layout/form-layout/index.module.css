@@ -1,0 +1,7 @@
+.layout__stepper {
+    @apply flex-grow-0 w-[150px] flex justify-center;
+}
+
+.layout__content {
+    @apply flex flex-col gap-y-5 flex-grow;
+}

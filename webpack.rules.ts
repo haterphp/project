@@ -27,5 +27,16 @@ export const rules: Required<ModuleOptions>['rules'] = [
         transpileOnly: true,
       },
     },
-  }
+  },
+  {
+    test: /\.(png|jpg|gif|svg)$/i,
+    use: [
+      {
+        loader: 'url-loader',
+        options: {
+          limit: 8192,
+        },
+      },
+    ],
+  },
 ];

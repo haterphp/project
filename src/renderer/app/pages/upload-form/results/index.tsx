@@ -1,5 +1,5 @@
 import { RouterPath } from "@app/router/path";
-import { LayoutHeader } from "@app/tools";
+import { LayoutHeader } from "@app/tools/layout";
 import { Navigate, useParams } from "react-router-dom";
 import { useGetOneSessionRequest } from "./request";
 import { useEffect } from "react";

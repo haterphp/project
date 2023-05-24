@@ -30,9 +30,9 @@
     "outDir": "dist",
     "paths": {
       "*": ["node_modules/*"],
-      "@app/*": ["src/app/*"],
-      "@data/*": ["src/data/*"],
-      "@domain/*": ["src/domain/*"]
+      "@app/*": ["src/renderer/app/*"],
+      "@data/*": ["src/renderer/data/*"],
+      "@domain/*": ["src/renderer/domain/*"]
     }
   },
   "include": ["src/**/*"],

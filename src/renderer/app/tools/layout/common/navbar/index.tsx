@@ -3,13 +3,12 @@ import { Link } from "react-router-dom"
 
 const LINKS = [
     { to: RouterPath.UF_GREETING, title: 'На главную' },
-    { to: RouterPath.UF_GREETING, title: 'О программе' },
-    { to: RouterPath.UF_GREETING, title: 'Справка' },
-    { to: RouterPath.UF_GREETING, title: 'О разработчике' },
+    { to: RouterPath.ABOUT_APP, title: 'Справка' },
+    { to: RouterPath.ABOUT_DEV, title: 'О разработчике' },
 ]
 
 interface INavbarProps {
-    isOpen: boolean
+    isOpen: boolean,
 }
 
 const Navbar = (props: INavbarProps) => {
