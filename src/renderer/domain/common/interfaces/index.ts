@@ -7,7 +7,7 @@ interface IExceptionServicePaylaod<TKeys extends string> {
     code: number;
     message: string;
   };
-  data: Partial<Record<TKeys, string>>;
+  data?: Partial<Record<TKeys, string>>;
 }
 
 export type { IUseCase, IExceptionServicePaylaod };
